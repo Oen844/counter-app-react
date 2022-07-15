@@ -1,9 +1,22 @@
+// const newMessage = {
+//     message: 'Hola mundo',
+//     id: 123454,
+    
+// };
+const getResult = ( a, b) => {
+    return a + b;
+}
+const saludo = () => {
+    return (
+       "Hola mundo"
+    )
+}
 
-
-export function FirsApp() {
+export const FirstApp = () => {
+  
   return (
     <>
-      <h1>First App</h1>
+      <h1>{getResult( 5, 5)}</h1>
       <p>This is the first app</p>
     </>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
 import  ReactDOM  from 'react-dom/client';
-import { FirsApp } from './FirstApp';
+import { FirstApp } from './FirstApp';
 // import { HelloWorldApp } from './HelloWorldApp';
 
 
@@ -8,7 +8,7 @@ import { FirsApp } from './FirstApp';
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         {/* <HelloWorldApp /> */}
-        <FirsApp />
+        <FirstApp />
     </React.StrictMode>
 );
 
