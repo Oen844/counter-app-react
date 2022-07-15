@@ -9,7 +9,7 @@ import './style.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         {/* <HelloWorldApp /> */}
-        <FirstApp title= "Hola, Soy Pau!!!" subtitle= {123}/>
+        <FirstApp title= "Hola buenos días" subtitle={2134}/>
     </React.StrictMode>
 );
 

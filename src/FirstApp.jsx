@@ -1,6 +1,10 @@
+import PropTypes from 'prop-types';
 
-export const FirstApp = ( {title = "Hola soy Goku", subtitle} ) => {
+export const FirstApp = ( {title , subtitle} ) => {
   
+    if(!title) {
+        title = "Hola soy Goku!!!";
+    }
     
   return (
     <>
@@ -8,4 +12,9 @@ export const FirstApp = ( {title = "Hola soy Goku", subtitle} ) => {
       <p>{subtitle + 1}</p>
     </>
   );
+}
+
+FirstApp.propTypes = {
+    title: PropTypes.string.isRequired,
+    subtitle: PropTypes.number
 }
