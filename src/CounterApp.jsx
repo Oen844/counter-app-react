@@ -11,6 +11,13 @@ export const CounterApp = ({ value }) => {
   const handleless = () => {
     setCounter(counter - 1);
   };
+  
+  const resetCounter = () => {
+    setCounter(value);
+  }
+  if(counter < 0) {
+    setCounter(counter + 1);
+  }
 
   return (
     <>
@@ -19,6 +26,7 @@ export const CounterApp = ({ value }) => {
 
       <button onClick={handleAdd}>+1</button>
       <button onClick={handleless}>-1</button>
+      <button onClick={resetCounter}>reset</button>
     </>
   );
 };
