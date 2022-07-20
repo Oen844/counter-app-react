@@ -10,8 +10,8 @@ import './style.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         {/* <HelloWorldApp /> */}
-        <FirstApp Title = "Hola, Soy Vegeta" />
-        {/* <CounterApp /> */}
+        {/* <FirstApp Title = "Hola, Soy Vegeta" /> */}
+        <CounterApp />
     </React.StrictMode>
 );
 
