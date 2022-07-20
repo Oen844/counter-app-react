@@ -1,4 +1,4 @@
-import { getImagen } from "../base-pruebas/11-async-await";
+import { getImagen } from "../../base-pruebas/11-async-await";
 
 
 
